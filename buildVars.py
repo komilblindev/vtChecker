@@ -41,9 +41,9 @@ Features Multi-language support (English, Russian, Uzbek). Free API limits: 4 re
 	# Author(s)
 	addon_author="Komil Hamzayev",
 	# URL for the add-on documentation support
-	addon_url="https://github.com/hamzayevkomil52/vtChecker",
+	addon_url="https://github.com/komilblindev/vtChecker",
 	# URL for the add-on repository where the source code can be found
-	addon_sourceURL="https://github.com/hamzayevkomil52/vtChecker",
+	addon_sourceURL="https://github.com/komilblindev/vtChecker",
 	# Documentation file name
 	addon_docFileName="readme.html",
 	# Minimum NVDA version supported (e.g. "2019.3.0", minor version is optional)
