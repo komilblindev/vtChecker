@@ -113,3 +113,6 @@ msgstr "--- Soatlik ---\nJami berilgan: {allowed}\nIshlatildi: {used}\nQoldi: {r
 
 msgid "--- Daily ---\nAllowed: {allowed}\nUsed: {used}\nRemaining: {rem}\n"
 msgstr "--- Kunlik ---\nJami berilgan: {allowed}\nIshlatildi: {used}\nQoldi: {rem}\n"
+
+msgid "Minute Limit: 4 requests / minute (Standard Free Limit)\n\n"
+msgstr "Daqiqalik Limit: 4 so'rov / daqiqa (Standart bepul limit)\n\n"

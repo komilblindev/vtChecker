@@ -113,3 +113,6 @@ msgstr "--- В час ---\nВсего доступно: {allowed}\nИсполь�
 
 msgid "--- Daily ---\nAllowed: {allowed}\nUsed: {used}\nRemaining: {rem}\n"
 msgstr "--- В день ---\nВсего доступно: {allowed}\nИспользовано: {used}\nОсталось: {rem}\n"
+
+msgid "Minute Limit: 4 requests / minute (Standard Free Limit)\n\n"
+msgstr "Минутный лимит: 4 запроса / мин (Стандартный бесплатный)\n\n"
