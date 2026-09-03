@@ -41,9 +41,9 @@ Features Multi-language support (English, Russian, Uzbek). Free API limits: 4 re
 	# Author(s)
 	addon_author="Komil Hamzayev",
 	# URL for the add-on documentation support
-	addon_url=None,
+	addon_url="https://github.com/hamzayevkomil52/vtChecker_nvda",
 	# URL for the add-on repository where the source code can be found
-	addon_sourceURL=None,
+	addon_sourceURL="https://github.com/hamzayevkomil52/vtChecker_nvda",
 	# Documentation file name
 	addon_docFileName="readme.html",
 	# Minimum NVDA version supported (e.g. "2019.3.0", minor version is optional)
@@ -57,7 +57,7 @@ Features Multi-language support (English, Russian, Uzbek). Free API limits: 4 re
 	# Add-on license such as GPL 2
 	addon_license="GPL 2",
 	# URL for the license document the ad-on is licensed under
-	addon_licenseURL=None,
+	addon_licenseURL="https://www.gnu.org/licenses/gpl-2.0.html",
 )
 
 # Define the python files that are the sources of your add-on.
