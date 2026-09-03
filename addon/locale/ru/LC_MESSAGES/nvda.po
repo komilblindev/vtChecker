@@ -77,3 +77,6 @@ msgstr "Подробные результаты недоступны."
 
 msgid "No engines detected this file as malicious."
 msgstr "Ни один антивирус не обнаружил этот файл как вредоносный."
+
+msgid "Checks the focused file with VirusTotal using its SHA-256 hash or by uploading it, and allows checking URLs/Hashes manually.  How to get an API Key: 1. Register a free account at virustotal.com. 2. Go to your Profile -> API Key and copy your key. 3. Open NVDA Settings -> VirusTotal and paste the key.  How to set Hotkeys (None by default): 1. Go to NVDA Menu -> Preferences -> Input Gestures. 2. Expand the 'VirusTotal' category. 3. Assign your preferred shortcuts for checking a file and opening the manual check dialog. Features Multi-language support (English, Russian, Uzbek)."
+msgstr "Проверяет выбранный файл с помощью VirusTotal (по хэшу SHA-256 или путем загрузки), а также позволяет проверять URL/хэши вручную.  Как получить ключ API: 1. Зарегистрируйтесь на virustotal.com. 2. Перейдите в Profile -> API Key и скопируйте ключ. 3. Откройте Настройки NVDA -> VirusTotal и вставьте ключ.  Как назначить горячие клавиши (по умолчанию их нет): 1. Перейдите в Меню NVDA -> Параметры -> Жесты ввода. 2. Разверните категорию 'VirusTotal'. 3. Назначьте удобные вам клавиши для проверки файла и открытия диалога ручного ввода. Поддерживает несколько языков (английский, русский, узбекский)."
