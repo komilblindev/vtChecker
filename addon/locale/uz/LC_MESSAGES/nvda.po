@@ -1,0 +1,16 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: vtChecker 1.0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uz\n"
+
+msgid "VirusTotal Checker"
+msgstr "VirusTotal Tekshiruvchi"
+
+msgid "VirusTotal"
+msgstr "VirusTotal"
+
+msgid "Checks the focused file with VirusTotal. Press twice for a detailed report."
+msgstr "Tanlangan faylni VirusTotal orqali tekshiradi. To'liq hisobot uchun 2 marta bosing."
