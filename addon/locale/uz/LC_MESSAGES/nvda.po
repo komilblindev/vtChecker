@@ -56,3 +56,6 @@ msgstr "Natija xotiraga nusxalandi."
 
 msgid "Network or API error occurred."
 msgstr "Tarmoqda yoki APIda xatolik yuz berdi."
+
+msgid "Get API &Key from website"
+msgstr "Saytdan API &kalit olish"

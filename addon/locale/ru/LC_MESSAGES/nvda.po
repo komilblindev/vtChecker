@@ -56,3 +56,6 @@ msgstr "Результат скопирован в буфер обмена."
 
 msgid "Network or API error occurred."
 msgstr "Произошла ошибка сети или API."
+
+msgid "Get API &Key from website"
+msgstr "Получить &API ключ на сайте"

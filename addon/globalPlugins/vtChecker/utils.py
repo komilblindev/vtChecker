@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 import hashlib
 import os
-import comtypes.client
 import api as nvda_api
+import ctypes
 
 def get_focused_file_path():
     """Gets the path of the currently focused file in Windows Explorer or Desktop."""
@@ -15,17 +15,47 @@ def get_focused_file_path():
         if app_name != "explorer":
             return None
             
-        shell = comtypes.client.CreateObject("Shell.Application", dynamic=True)
-        for window in shell.Windows():
-            # Match the window handle
-            if window.hwnd == obj.windowHandle:
-                items = window.Document.SelectedItems()
-                if items.Count > 0:
-                    return items.Item(0).Path
-                    
-        # Fallback for desktop
-        desktop_handle = None # just conceptual fallback
-        # A more robust fallback would check clipboard if the user pressed Ctrl+C
+        try:
+            import comtypes.client
+            shell = comtypes.client.CreateObject("Shell.Application", dynamic=True)
+            windows = shell.Windows()
+            for i in range(windows.Count):
+                window = windows.Item(i)
+                win_hwnd = getattr(window, "HWND", getattr(window, "hwnd", None))
+                if win_hwnd == obj.windowHandle:
+                    items = window.Document.SelectedItems()
+                    if items.Count > 0:
+                        item = items.Item(0)
+                        path = getattr(item, "Path", getattr(item, "path", None))
+                        if path:
+                            return path
+        except Exception:
+            pass # Fallback to clipboard
+            
+        # Fallback: Clipboard approach (very reliable for both Explorer and Desktop)
+        import keyboardHandler
+        import time
+        
+        # Send Ctrl+C
+        keyboardHandler.KeyboardInputGesture.fromName("control+c").send()
+        time.sleep(0.1)
+        
+        CF_HDROP = 15
+        user32 = ctypes.windll.user32
+        shell32 = ctypes.windll.shell32
+        
+        if user32.OpenClipboard(0):
+            try:
+                hdrop = user32.GetClipboardData(CF_HDROP)
+                if hdrop:
+                    count = shell32.DragQueryFileW(hdrop, 0xFFFFFFFF, None, 0)
+                    if count > 0:
+                        buf = ctypes.create_unicode_buffer(260)
+                        shell32.DragQueryFileW(hdrop, 0, buf, 260)
+                        return buf.value
+            finally:
+                user32.CloseClipboard()
+
     except Exception:
         pass
         
@@ -33,7 +63,7 @@ def get_focused_file_path():
 
 def calculate_sha256(filepath):
     """Calculates SHA-256 hash of a file efficiently by reading in chunks."""
-    if not os.path.isfile(filepath):
+    if not filepath or not os.path.isfile(filepath):
         return None
         
     sha256_hash = hashlib.sha256()

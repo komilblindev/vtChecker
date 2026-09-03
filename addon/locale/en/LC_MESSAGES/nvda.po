@@ -56,3 +56,6 @@ msgstr "Result copied to clipboard."
 
 msgid "Network or API error occurred."
 msgstr "Network or API error occurred."
+
+msgid "Get API &Key from website"
+msgstr "Get API &Key from website"

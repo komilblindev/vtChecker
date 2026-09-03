@@ -80,3 +80,16 @@ def format_detailed_report(data: dict) -> str:
         return "No engines detected this file as malicious."
         
     return "\n".join(report_lines)
+
+def check_url(url_string: str, api_key: str) -> dict:
+    import base64
+    url_id = base64.urlsafe_b64encode(url_string.encode('utf-8')).decode('utf-8').strip("=")
+    endpoint = f"{API_BASE_URL}/urls/{url_id}"
+    req = urllib.request.Request(endpoint, headers={"x-apikey": api_key})
+    try:
+        with urllib.request.urlopen(req, timeout=10) as response:
+            return json.loads(response.read().decode('utf-8'))
+    except urllib.error.HTTPError as e:
+        if e.code == 404:
+            return None
+        raise

@@ -28,6 +28,9 @@ class VTSettingsPanel(SettingsPanel):
             value=config.conf["vtChecker"]["apiKey"]
         )
         
+        getApiBtn = sHelper.addItem(wx.Button(self, label=_("Get API &Key from website")))
+        getApiBtn.Bind(wx.EVT_BUTTON, self.onGetApiKey)
+        
         self.audioBeepCheckbox = sHelper.addItem(
             wx.CheckBox(self, label=_("Play audio &beep during file upload"))
         )
@@ -42,6 +45,11 @@ class VTSettingsPanel(SettingsPanel):
             wx.CheckBox(self, label=_("Automatically &upload file if hash not found"))
         )
         self.autoUploadCheckbox.SetValue(config.conf["vtChecker"]["autoUpload"])
+
+
+    def onGetApiKey(self, evt):
+        import os
+        os.startfile("https://www.virustotal.com/gui/join-us")
 
     def onSave(self):
         config.conf["vtChecker"]["apiKey"] = self.apiKeyEdit.GetValue().strip()
