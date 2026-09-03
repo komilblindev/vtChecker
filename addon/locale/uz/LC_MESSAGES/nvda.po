@@ -107,3 +107,9 @@ msgstr "Limitlarni olishda xatolik. Kalitni va tarmoqni tekshiring."
 
 msgid "Error"
 msgstr "Xato"
+
+msgid "--- Hourly ---\nAllowed: {allowed}\nUsed: {used}\nRemaining: {rem}\n\n"
+msgstr "--- Soatlik ---\nJami berilgan: {allowed}\nIshlatildi: {used}\nQoldi: {rem}\n\n"
+
+msgid "--- Daily ---\nAllowed: {allowed}\nUsed: {used}\nRemaining: {rem}\n"
+msgstr "--- Kunlik ---\nJami berilgan: {allowed}\nIshlatildi: {used}\nQoldi: {rem}\n"

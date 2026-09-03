@@ -107,3 +107,9 @@ msgstr "Failed to retrieve limits. Check your API key and connection."
 
 msgid "Error"
 msgstr "Error"
+
+msgid "--- Hourly ---\nAllowed: {allowed}\nUsed: {used}\nRemaining: {rem}\n\n"
+msgstr "--- Hourly ---\nAllowed: {allowed}\nUsed: {used}\nRemaining: {rem}\n\n"
+
+msgid "--- Daily ---\nAllowed: {allowed}\nUsed: {used}\nRemaining: {rem}\n"
+msgstr "--- Daily ---\nAllowed: {allowed}\nUsed: {used}\nRemaining: {rem}\n"

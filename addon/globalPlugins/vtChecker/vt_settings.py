@@ -81,9 +81,11 @@ class VTSettingsPanel(SettingsPanel):
 					hourly_allowed = hourly.get("allowed", 0)
 					
 					msg = _("VirusTotal API Limits:\n\n")
-					msg += _("Minute Limit: 4 requests / minute (Standard Free Limit)\n")
-					msg += _("Hourly Usage: {used} / {allowed}\n").format(used=hourly_used, allowed=hourly_allowed)
-					msg += _("Daily Usage: {used} / {allowed}\n").format(used=daily_used, allowed=daily_allowed)
+					msg += _("Minute Limit: 4 requests / minute (Standard Free Limit)\n\n")
+					msg += _("--- Hourly ---\nAllowed: {allowed}\nUsed: {used}\nRemaining: {rem}\n\n").format(
+						allowed=hourly_allowed, used=hourly_used, rem=hourly_allowed - hourly_used)
+					msg += _("--- Daily ---\nAllowed: {allowed}\nUsed: {used}\nRemaining: {rem}\n").format(
+						allowed=daily_allowed, used=daily_used, rem=daily_allowed - daily_used)
 					
 					wx.CallAfter(wx.MessageBox, msg, _("API Limits"), wx.OK | wx.ICON_INFORMATION)
 			except Exception as e:

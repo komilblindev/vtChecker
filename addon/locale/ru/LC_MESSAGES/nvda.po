@@ -107,3 +107,9 @@ msgstr "Не удалось получить лимиты. Проверьте к
 
 msgid "Error"
 msgstr "Ошибка"
+
+msgid "--- Hourly ---\nAllowed: {allowed}\nUsed: {used}\nRemaining: {rem}\n\n"
+msgstr "--- В час ---\nВсего доступно: {allowed}\nИспользовано: {used}\nОсталось: {rem}\n\n"
+
+msgid "--- Daily ---\nAllowed: {allowed}\nUsed: {used}\nRemaining: {rem}\n"
+msgstr "--- В день ---\nВсего доступно: {allowed}\nИспользовано: {used}\nОсталось: {rem}\n"
