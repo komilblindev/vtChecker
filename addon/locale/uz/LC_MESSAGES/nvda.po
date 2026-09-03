@@ -14,3 +14,45 @@ msgstr "VirusTotal"
 
 msgid "Checks the focused file with VirusTotal. Press twice for a detailed report."
 msgstr "Tanlangan faylni VirusTotal orqali tekshiradi. To'liq hisobot uchun 2 marta bosing."
+
+msgid "VirusTotal &API Key:"
+msgstr "VirusTotal &API Kaliti:"
+
+msgid "Play audio &beep during file upload"
+msgstr "Fayl yuklanayotganda audio &bip chalinsin"
+
+msgid "Automatically &copy results to clipboard"
+msgstr "Natijalar avtomatik xotiraga &nusxalansin"
+
+msgid "Automatically &upload file if hash not found"
+msgstr "Xesh topilmasa fayl avtomatik &yuklansin"
+
+msgid "Please set your VirusTotal API key in NVDA settings."
+msgstr "Iltimos, NVDA sozlamalaridan VirusTotal API kalitini kiriting."
+
+msgid "No file focused in Windows Explorer."
+msgstr "Windows Explorer'da hech qanday fayl tanlanmagan."
+
+msgid "Checking VirusTotal..."
+msgstr "VirusTotal tekshirilmoqda..."
+
+msgid "Could not read file for hashing."
+msgstr "Xeshni hisoblash uchun faylni o'qib bo'lmadi."
+
+msgid "Hash not found. Uploading file..."
+msgstr "Xesh topilmadi. Fayl yuklanmoqda..."
+
+msgid "File uploaded and queued for analysis. Try checking again later."
+msgstr "Fayl yuklandi va navbatga qo'yildi. Birozdan so'ng qayta tekshiring."
+
+msgid "File not found in VirusTotal database."
+msgstr "Fayl VirusTotal bazasidan topilmadi."
+
+msgid "VirusTotal Detailed Report"
+msgstr "VirusTotal To'liq Hisoboti"
+
+msgid "Result copied to clipboard."
+msgstr "Natija xotiraga nusxalandi."
+
+msgid "Network or API error occurred."
+msgstr "Tarmoqda yoki APIda xatolik yuz berdi."

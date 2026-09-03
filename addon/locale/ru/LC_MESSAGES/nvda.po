@@ -14,3 +14,45 @@ msgstr "VirusTotal"
 
 msgid "Checks the focused file with VirusTotal. Press twice for a detailed report."
 msgstr "Проверяет выбранный файл в VirusTotal. Нажмите дважды для подробного отчета."
+
+msgid "VirusTotal &API Key:"
+msgstr "&API Ключ VirusTotal:"
+
+msgid "Play audio &beep during file upload"
+msgstr "Воспроизводить звуковой &сигнал при загрузке"
+
+msgid "Automatically &copy results to clipboard"
+msgstr "Автоматически &копировать результаты в буфер обмена"
+
+msgid "Automatically &upload file if hash not found"
+msgstr "Автоматически &загружать файл, если хеш не найден"
+
+msgid "Please set your VirusTotal API key in NVDA settings."
+msgstr "Пожалуйста, укажите API ключ VirusTotal в настройках NVDA."
+
+msgid "No file focused in Windows Explorer."
+msgstr "В проводнике Windows не выбран файл."
+
+msgid "Checking VirusTotal..."
+msgstr "Проверка в VirusTotal..."
+
+msgid "Could not read file for hashing."
+msgstr "Не удалось прочитать файл для вычисления хеша."
+
+msgid "Hash not found. Uploading file..."
+msgstr "Хеш не найден. Загрузка файла..."
+
+msgid "File uploaded and queued for analysis. Try checking again later."
+msgstr "Файл загружен и поставлен в очередь. Попробуйте проверить позже."
+
+msgid "File not found in VirusTotal database."
+msgstr "Файл не найден в базе данных VirusTotal."
+
+msgid "VirusTotal Detailed Report"
+msgstr "Подробный отчет VirusTotal"
+
+msgid "Result copied to clipboard."
+msgstr "Результат скопирован в буфер обмена."
+
+msgid "Network or API error occurred."
+msgstr "Произошла ошибка сети или API."
