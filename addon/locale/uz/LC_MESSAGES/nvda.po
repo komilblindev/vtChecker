@@ -80,3 +80,30 @@ msgstr "Hech qaysi antivirus bu faylni zararli deb topmadi."
 
 msgid "Checks the focused file with VirusTotal using its SHA-256 hash or by uploading it, and allows checking URLs/Hashes manually.  How to get an API Key: 1. Register a free account at virustotal.com. 2. Go to your Profile -> API Key and copy your key. 3. Open NVDA Settings -> VirusTotal and paste the key.  How to set Hotkeys (None by default): 1. Go to NVDA Menu -> Preferences -> Input Gestures. 2. Expand the 'VirusTotal' category. 3. Assign your preferred shortcuts for checking a file and opening the manual check dialog. Features Multi-language support (English, Russian, Uzbek)."
 msgstr "Tanlangan faylni SHA-256 xeshi yoki faylning o'zini yuklash orqali VirusTotal'da tekshiradi, hamda URL va Xeshlarni qo'lda kiritib tekshirish imkonini beradi.  API Kalitini qanday olish mumkin: 1. virustotal.com saytidan ro'yxatdan o'ting. 2. Profilingiz -> API Key bo'limidan kalitni oling. 3. NVDA Sozlamalari -> VirusTotal bo'limiga kalitni joylashtiring.  Tezkor klavishlarni belgilash (standart belgilanmagan): 1. NVDA Menyusi -> Parametrlar -> Kiritish imo-ishoralari. 2. 'VirusTotal' toifasini kengaytiring. 3. Fayl tekshirish va qo'lda kiritish oynasiga klavishlarni biriktiring. Ko'p tillarni qo'llab-quvvatlaydi (Ingliz, Rus, O'zbek)."
+
+msgid "Check API Limits"
+msgstr "API Limitlarini Tekshirish"
+
+msgid "Please enter your API Key first."
+msgstr "Iltimos avval API kalitni kiriting."
+
+msgid "VirusTotal API Limits:\n\n"
+msgstr "VirusTotal API Limitlari:\n\n"
+
+msgid "Minute Limit: 4 requests / minute (Standard Free Limit)\n"
+msgstr "Daqiqalik Limit: 4 so'rov / daqiqa (Standart bepul limit)\n"
+
+msgid "Hourly Usage: {used} / {allowed}\n"
+msgstr "Soatlik foydalanish: {used} / {allowed}\n"
+
+msgid "Daily Usage: {used} / {allowed}\n"
+msgstr "Kunlik foydalanish: {used} / {allowed}\n"
+
+msgid "API Limits"
+msgstr "API Limitlar"
+
+msgid "Failed to retrieve limits. Check your API key and connection."
+msgstr "Limitlarni olishda xatolik. Kalitni va tarmoqni tekshiring."
+
+msgid "Error"
+msgstr "Xato"

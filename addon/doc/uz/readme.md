@@ -24,3 +24,7 @@ Fayl ustida belgilangan klavishni bosganingizda:
 * **2 marta tez bosish:** Barcha antivirus tizimlarining batafsil hisobotini o'qish imkonini beruvchi to'liq oyna ochiladi.
 
 Agar fayl VirusTotal bazasida umuman yo'q bo'lsa, plagin uni avtomatik ravishda yuklashi mumkin (agar sozlamalardan yoqilgan bo'lsa), orqa fonda navbatni kutadi va natijalar tayyor bo'lishi bilanoq sizga ovozli va matnli xabar beradi.
+
+
+### API Limits
+Eslatma: VirusTotal bepul API standarti 1 daqiqada 4 tagacha va kuniga 500 tagacha so'rov yuborish imkonini beradi. Limitlaringiz holatini plagin sozlamalaridan tekshirishingiz mumkin.

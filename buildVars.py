@@ -32,7 +32,7 @@ How to set Hotkeys (None by default):
 2. Expand the 'VirusTotal' category.
 3. Assign your preferred shortcuts for checking a file and opening the manual check dialog.
 
-Features Multi-language support (English, Russian, Uzbek)."""),
+Features Multi-language support (English, Russian, Uzbek). Free API limits: 4 requests/min, 500/day."""),
 	# version
 	addon_version="1.0",
 	# Brief changelog for this version
