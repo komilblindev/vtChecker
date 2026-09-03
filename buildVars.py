@@ -39,7 +39,7 @@ Features Multi-language support (English, Russian, Uzbek). Free API limits: 4 re
 	# Translators: what's new content for the add-on version to be shown in the add-on store
 	addon_changelog=_("""Initial release."""),
 	# Author(s)
-	addon_author="Komil Hamzayev",
+	addon_author="Komil Hamzayev <hamzayevkomil52@gmail.com>",
 	# URL for the add-on documentation support
 	addon_url="https://github.com/komilblindev/vtChecker",
 	# URL for the add-on repository where the source code can be found

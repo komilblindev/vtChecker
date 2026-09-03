@@ -1,6 +1,7 @@
 # VirusTotal Checker
 
 * Автор: Komil Hamzayev <hamzayevkomil52@gmail.com>
+* Исходный код: [GitHub Репозиторий](https://github.com/komilblindev/vtChecker)
 * Совместимость с NVDA: 2024.1.0 и выше
 
 Это дополнение позволяет легко проверять файлы, URL-адреса или хэши с помощью VirusTotal API.

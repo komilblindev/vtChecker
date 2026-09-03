@@ -1,6 +1,7 @@
 # VirusTotal Tekshiruvchi (vtChecker)
 
 * Muallif: Komil Hamzayev <hamzayevkomil52@gmail.com>
+* Manba kodi (Source code): [GitHub Ombori](https://github.com/komilblindev/vtChecker)
 * NVDA mosligi: 2024.1.0 va undan yuqori
 
 Bu plagin fayllar, URL manzillar yoki Xeshlarni VirusTotal API orqali osongina tekshirish imkonini beradi.
