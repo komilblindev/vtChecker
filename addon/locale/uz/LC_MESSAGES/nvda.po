@@ -59,3 +59,21 @@ msgstr "Tarmoqda yoki APIda xatolik yuz berdi."
 
 msgid "Get API &Key from website"
 msgstr "Saytdan API &kalit olish"
+
+msgid "Analysis complete: "
+msgstr "Tahlil yakunlandi: "
+
+msgid "Analysis is taking too long. Please press the shortcut later."
+msgstr "Tahlil juda uzoq davom etyapti. Iltimos birozdan so'ng klavishni o'zingiz bosing."
+
+msgid "No results."
+msgstr "Natija topilmadi."
+
+msgid "Detection ratio: {count}/{total}"
+msgstr "Aniqlanish darajasi: {count}/{total}"
+
+msgid "No detailed results available."
+msgstr "Batafsil natijalar mavjud emas."
+
+msgid "No engines detected this file as malicious."
+msgstr "Hech qaysi antivirus bu faylni zararli deb topmadi."

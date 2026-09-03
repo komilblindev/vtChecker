@@ -59,3 +59,21 @@ msgstr "Network or API error occurred."
 
 msgid "Get API &Key from website"
 msgstr "Get API &Key from website"
+
+msgid "Analysis complete: "
+msgstr "Analysis complete: "
+
+msgid "Analysis is taking too long. Please press the shortcut later."
+msgstr "Analysis is taking too long. Please press the shortcut later."
+
+msgid "No results."
+msgstr "No results."
+
+msgid "Detection ratio: {count}/{total}"
+msgstr "Detection ratio: {count}/{total}"
+
+msgid "No detailed results available."
+msgstr "No detailed results available."
+
+msgid "No engines detected this file as malicious."
+msgstr "No engines detected this file as malicious."

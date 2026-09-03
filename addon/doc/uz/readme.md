@@ -1,16 +1,26 @@
 # VirusTotal Tekshiruvchi (vtChecker)
 
-* Muallif: Author Name
+* Muallif: Komil Hamzayev <hamzayevkomil52@gmail.com>
 * NVDA mosligi: 2024.1.0 va undan yuqori
 
-Bu plagin Windows Explorer-da tanlangan faylni VirusTotal bazasi orqali tekshirish imkonini beradi.
+Bu plagin fayllar, URL manzillar yoki Xeshlarni VirusTotal API orqali osongina tekshirish imkonini beradi.
 
 ## Sozlash
-1. [VirusTotal](https://www.virustotal.com/) saytidan bepul API kalit oling.
-2. NVDA Sozlamalari -> VirusTotal bo'limiga kiring.
-3. API kalitingizni kiriting.
+1. [VirusTotal](https://www.virustotal.com/) saytidan bepul ro'yxatdan o'ting.
+2. Profilingiz -> API Key bo'limiga kirib, kalitingizni nusxalang.
+3. NVDA Sozlamalari -> VirusTotal bo'limini oching, API kalitni joylashtiring va parametrlarni sozlang (avto-yuklash, tovushli signallar va boshqalar).
 
-## Foydalanish
-NVDA Sozlamalari -> Imo-ishoralar (Input Gestures) -> VirusTotal bo'limiga kiring va "Checks the focused file with VirusTotal" amali uchun o'zingizga qulay tugmani kiriting (masalan: NVDA+Shift+V).
-* 1 marta bosilganda: Qisqa xulosa aytiladi va xotiraga nusxalanadi.
-* 2 marta tez bosilganda: Barcha antiviruslar natijalarini ko'rsatuvchi to'liq oyna ochiladi.
+## Foydalanish va tezkor klavishlar
+Standart holatda hech qanday klavish belgilanmagan. Ularni o'zingiz belgilashingiz kerak:
+1. **NVDA Menyusi -> Parametrlar -> Kiritish imo-ishoralari (Input Gestures)** bo'limini oching.
+2. **VirusTotal** toifasini topib kengaytiring.
+3. Quyidagi buyruqlarga o'zingizga qulay klavishlarni biriktiring:
+   * **Fokusdagi faylni tekshirish:** Windows Explorer-da tanlangan faylni tekshiradi.
+   * **Qo'lda tekshirish oynasi:** URL, IP yoki SHA-256 xeshini kiritish uchun maxsus oyna ochadi.
+
+### Faylni tekshirish
+Fayl ustida belgilangan klavishni bosganingizda:
+* **1 marta bosish:** NVDA qisqacha xulosani aytadi (masalan, 0/91) va VT havolasi bilan birga to'liq batafsil hisobot avtomatik xotiraga (buferga) nusxalanadi.
+* **2 marta tez bosish:** Barcha antivirus tizimlarining batafsil hisobotini o'qish imkonini beruvchi to'liq oyna ochiladi.
+
+Agar fayl VirusTotal bazasida umuman yo'q bo'lsa, plagin uni avtomatik ravishda yuklashi mumkin (agar sozlamalardan yoqilgan bo'lsa), orqa fonda navbatni kutadi va natijalar tayyor bo'lishi bilanoq sizga ovozli va matnli xabar beradi.

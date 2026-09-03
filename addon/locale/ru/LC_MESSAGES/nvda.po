@@ -59,3 +59,21 @@ msgstr "Произошла ошибка сети или API."
 
 msgid "Get API &Key from website"
 msgstr "Получить &API ключ на сайте"
+
+msgid "Analysis complete: "
+msgstr "Анализ завершен: "
+
+msgid "Analysis is taking too long. Please press the shortcut later."
+msgstr "Анализ занимает слишком много времени. Пожалуйста, нажмите ярлык позже."
+
+msgid "No results."
+msgstr "Нет результатов."
+
+msgid "Detection ratio: {count}/{total}"
+msgstr "Уровень обнаружения: {count}/{total}"
+
+msgid "No detailed results available."
+msgstr "Подробные результаты недоступны."
+
+msgid "No engines detected this file as malicious."
+msgstr "Ни один антивирус не обнаружил этот файл как вредоносный."

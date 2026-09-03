@@ -20,14 +20,26 @@ addon_info = AddonInfo(
 	addon_summary=_("VirusTotal Checker"),
 	# Add-on description
 	# Translators: Long description to be shown for this add-on on add-on information from add-on store
-	addon_description=_("""Checks the focused file in Windows Explorer with VirusTotal using its SHA-256 hash or by uploading it."""),
+	addon_description=_("""Checks the focused file with VirusTotal using its SHA-256 hash or by uploading it, and allows checking URLs/Hashes manually.
+
+How to get an API Key:
+1. Register a free account at virustotal.com.
+2. Go to your Profile -> API Key and copy your key.
+3. Open NVDA Settings -> VirusTotal and paste the key.
+
+How to set Hotkeys (None by default):
+1. Go to NVDA Menu -> Preferences -> Input Gestures.
+2. Expand the 'VirusTotal' category.
+3. Assign your preferred shortcuts for checking a file and opening the manual check dialog.
+
+Features Multi-language support (English, Russian, Uzbek)."""),
 	# version
 	addon_version="1.0",
 	# Brief changelog for this version
 	# Translators: what's new content for the add-on version to be shown in the add-on store
 	addon_changelog=_("""Initial release."""),
 	# Author(s)
-	addon_author="Author Name <author@example.com>",
+	addon_author="Komil Hamzayev",
 	# URL for the add-on documentation support
 	addon_url=None,
 	# URL for the add-on repository where the source code can be found
