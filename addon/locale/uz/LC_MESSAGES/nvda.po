@@ -116,3 +116,22 @@ msgstr "--- Kunlik ---\nJami berilgan: {allowed}\nIshlatildi: {used}\nQoldi: {re
 
 msgid "Minute Limit: 4 requests / minute (Standard Free Limit)\n\n"
 msgstr "Daqiqalik Limit: 4 so'rov / daqiqa (Standart bepul limit)\n\n"
+
+msgid "File is already being analyzed. Please wait..."
+msgstr "Fayl hozir tahlil qilinmoqda. Iltimos kuting..."
+
+msgid "File uploaded and queued for analysis. Please wait, I will notify you when it's done."
+msgstr "Fayl yuklandi va tahlil uchun navbatga qo'yildi. Iltimos kuting, tayyor bo'lgach o'zim xabar beraman."
+
+msgid "Item not found in VirusTotal database."
+msgstr "Element VirusTotal bazasidan topilmadi."
+
+msgid "Enter a Hash, URL or IP manually to check with VirusTotal."
+msgstr "VirusTotal orqali tekshirish uchun Xesh, URL yoki IP manzilni qo'lda kiriting."
+
+msgid "Enter SHA-256 Hash, URL or IP address to check:"
+msgstr "Tekshirish uchun SHA-256 Xesh, URL yoki IP manzilni kiriting:"
+
+msgid "VirusTotal Manual Check"
+msgstr "VirusTotal Qo'lda Tekshirish"
+

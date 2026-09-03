@@ -116,3 +116,22 @@ msgstr "--- В день ---\nВсего доступно: {allowed}\nИспол�
 
 msgid "Minute Limit: 4 requests / minute (Standard Free Limit)\n\n"
 msgstr "Минутный лимит: 4 запроса / мин (Стандартный бесплатный)\n\n"
+
+msgid "File is already being analyzed. Please wait..."
+msgstr "Файл уже анализируется. Пожалуйста, подождите..."
+
+msgid "File uploaded and queued for analysis. Please wait, I will notify you when it's done."
+msgstr "Файл загружен и поставлен в очередь на анализ. Пожалуйста, подождите, я сообщу вам, когда всё будет готово."
+
+msgid "Item not found in VirusTotal database."
+msgstr "Элемент не найден в базе данных VirusTotal."
+
+msgid "Enter a Hash, URL or IP manually to check with VirusTotal."
+msgstr "Введите хэш, URL-адрес или IP-адрес вручную для проверки в VirusTotal."
+
+msgid "Enter SHA-256 Hash, URL or IP address to check:"
+msgstr "Введите хэш SHA-256, URL-адрес или IP-адрес для проверки:"
+
+msgid "VirusTotal Manual Check"
+msgstr "Ручная проверка VirusTotal"
+
