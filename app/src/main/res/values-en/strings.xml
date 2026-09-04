@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Edge Reader TTS</string>
+    <string name="developer_email">Developer: hamzayevkomil52@gmail.com</string>
+    <string name="settings_title">TTS Settings</string>
+    <string name="my_books">My Books</string>
+    <string name="new_book">New Book</string>
+</resources>

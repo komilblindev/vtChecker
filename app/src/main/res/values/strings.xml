@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Edge Reader TTS</string>
+    <string name="developer_email">Dasturchi: hamzayevkomil52@gmail.com</string>
+    <string name="settings_title">TTS Sozlamalari</string>
+    <string name="my_books">Mening Kitoblarim</string>
+    <string name="new_book">Yangi Kitob</string>
+</resources>
