@@ -1,0 +1,115 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: vtChecker 1.0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+
+msgid "VirusTotal Checker"
+msgstr "VirusTotal Checker"
+
+msgid "VirusTotal"
+msgstr "VirusTotal"
+
+msgid "Checks the focused file with VirusTotal. Press twice for a detailed report."
+msgstr "Checks the focused file with VirusTotal. Press twice for a detailed report."
+
+msgid "VirusTotal &API Key:"
+msgstr "VirusTotal &API Key:"
+
+msgid "Play audio &beep during file upload"
+msgstr "Play audio &beep during file upload"
+
+msgid "Automatically &copy results to clipboard"
+msgstr "Automatically &copy results to clipboard"
+
+msgid "Automatically &upload file if hash not found"
+msgstr "Automatically &upload file if hash not found"
+
+msgid "Please set your VirusTotal API key in NVDA settings."
+msgstr "Please set your VirusTotal API key in NVDA settings."
+
+msgid "No file focused in Windows Explorer."
+msgstr "No file focused in Windows Explorer."
+
+msgid "Checking VirusTotal..."
+msgstr "Checking VirusTotal..."
+
+msgid "Could not read file for hashing."
+msgstr "Could not read file for hashing."
+
+msgid "Hash not found. Uploading file..."
+msgstr "Hash not found. Uploading file..."
+
+msgid "File uploaded and queued for analysis. Try checking again later."
+msgstr "File uploaded and queued for analysis. Try checking again later."
+
+msgid "File not found in VirusTotal database."
+msgstr "File not found in VirusTotal database."
+
+msgid "VirusTotal Detailed Report"
+msgstr "VirusTotal Detailed Report"
+
+msgid "Result copied to clipboard."
+msgstr "Result copied to clipboard."
+
+msgid "Network or API error occurred."
+msgstr "Network or API error occurred."
+
+msgid "Get API &Key from website"
+msgstr "Get API &Key from website"
+
+msgid "Analysis complete: "
+msgstr "Analysis complete: "
+
+msgid "Analysis is taking too long. Please press the shortcut later."
+msgstr "Analysis is taking too long. Please press the shortcut later."
+
+msgid "No results."
+msgstr "No results."
+
+msgid "Detection ratio: {count}/{total}"
+msgstr "Detection ratio: {count}/{total}"
+
+msgid "No detailed results available."
+msgstr "No detailed results available."
+
+msgid "No engines detected this file as malicious."
+msgstr "No engines detected this file as malicious."
+
+msgid "Checks the focused file with VirusTotal using its SHA-256 hash or by uploading it, and allows checking URLs/Hashes manually.  How to get an API Key: 1. Register a free account at virustotal.com. 2. Go to your Profile -> API Key and copy your key. 3. Open NVDA Settings -> VirusTotal and paste the key.  How to set Hotkeys (None by default): 1. Go to NVDA Menu -> Preferences -> Input Gestures. 2. Expand the 'VirusTotal' category. 3. Assign your preferred shortcuts for checking a file and opening the manual check dialog. Features Multi-language support (English, Russian, Uzbek)."
+msgstr "Checks the focused file with VirusTotal using its SHA-256 hash or by uploading it, and allows checking URLs/Hashes manually.  How to get an API Key: 1. Register a free account at virustotal.com. 2. Go to your Profile -> API Key and copy your key. 3. Open NVDA Settings -> VirusTotal and paste the key.  How to set Hotkeys (None by default): 1. Go to NVDA Menu -> Preferences -> Input Gestures. 2. Expand the 'VirusTotal' category. 3. Assign your preferred shortcuts for checking a file and opening the manual check dialog. Features Multi-language support (English, Russian, Uzbek)."
+
+msgid "Check API Limits"
+msgstr "Check API Limits"
+
+msgid "Please enter your API Key first."
+msgstr "Please enter your API Key first."
+
+msgid "VirusTotal API Limits:\n\n"
+msgstr "VirusTotal API Limits:\n\n"
+
+msgid "Minute Limit: 4 requests / minute (Standard Free Limit)\n"
+msgstr "Minute Limit: 4 requests / minute (Standard Free Limit)\n"
+
+msgid "Hourly Usage: {used} / {allowed}\n"
+msgstr "Hourly Usage: {used} / {allowed}\n"
+
+msgid "Daily Usage: {used} / {allowed}\n"
+msgstr "Daily Usage: {used} / {allowed}\n"
+
+msgid "API Limits"
+msgstr "API Limits"
+
+msgid "Failed to retrieve limits. Check your API key and connection."
+msgstr "Failed to retrieve limits. Check your API key and connection."
+
+msgid "Error"
+msgstr "Error"
+
+msgid "--- Hourly ---\nAllowed: {allowed}\nUsed: {used}\nRemaining: {rem}\n\n"
+msgstr "--- Hourly ---\nAllowed: {allowed}\nUsed: {used}\nRemaining: {rem}\n\n"
+
+msgid "--- Daily ---\nAllowed: {allowed}\nUsed: {used}\nRemaining: {rem}\n"
+msgstr "--- Daily ---\nAllowed: {allowed}\nUsed: {used}\nRemaining: {rem}\n"

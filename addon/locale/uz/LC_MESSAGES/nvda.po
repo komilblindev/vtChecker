@@ -1,0 +1,137 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: vtChecker 1.0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uz\n"
+
+msgid "VirusTotal Checker"
+msgstr "VirusTotal Tekshiruvchi"
+
+msgid "VirusTotal"
+msgstr "VirusTotal"
+
+msgid "Checks the focused file with VirusTotal. Press twice for a detailed report."
+msgstr "Tanlangan faylni VirusTotal orqali tekshiradi. To'liq hisobot uchun 2 marta bosing."
+
+msgid "VirusTotal &API Key:"
+msgstr "VirusTotal &API Kaliti:"
+
+msgid "Play audio &beep during file upload"
+msgstr "Fayl yuklanayotganda audio &bip chalinsin"
+
+msgid "Automatically &copy results to clipboard"
+msgstr "Natijalar avtomatik xotiraga &nusxalansin"
+
+msgid "Automatically &upload file if hash not found"
+msgstr "Xesh topilmasa fayl avtomatik &yuklansin"
+
+msgid "Please set your VirusTotal API key in NVDA settings."
+msgstr "Iltimos, NVDA sozlamalaridan VirusTotal API kalitini kiriting."
+
+msgid "No file focused in Windows Explorer."
+msgstr "Windows Explorer'da hech qanday fayl tanlanmagan."
+
+msgid "Checking VirusTotal..."
+msgstr "VirusTotal tekshirilmoqda..."
+
+msgid "Could not read file for hashing."
+msgstr "Xeshni hisoblash uchun faylni o'qib bo'lmadi."
+
+msgid "Hash not found. Uploading file..."
+msgstr "Xesh topilmadi. Fayl yuklanmoqda..."
+
+msgid "File uploaded and queued for analysis. Try checking again later."
+msgstr "Fayl yuklandi va navbatga qo'yildi. Birozdan so'ng qayta tekshiring."
+
+msgid "File not found in VirusTotal database."
+msgstr "Fayl VirusTotal bazasidan topilmadi."
+
+msgid "VirusTotal Detailed Report"
+msgstr "VirusTotal To'liq Hisoboti"
+
+msgid "Result copied to clipboard."
+msgstr "Natija xotiraga nusxalandi."
+
+msgid "Network or API error occurred."
+msgstr "Tarmoqda yoki APIda xatolik yuz berdi."
+
+msgid "Get API &Key from website"
+msgstr "Saytdan API &kalit olish"
+
+msgid "Analysis complete: "
+msgstr "Tahlil yakunlandi: "
+
+msgid "Analysis is taking too long. Please press the shortcut later."
+msgstr "Tahlil juda uzoq davom etyapti. Iltimos birozdan so'ng klavishni o'zingiz bosing."
+
+msgid "No results."
+msgstr "Natija topilmadi."
+
+msgid "Detection ratio: {count}/{total}"
+msgstr "Aniqlanish darajasi: {count}/{total}"
+
+msgid "No detailed results available."
+msgstr "Batafsil natijalar mavjud emas."
+
+msgid "No engines detected this file as malicious."
+msgstr "Hech qaysi antivirus bu faylni zararli deb topmadi."
+
+msgid "Checks the focused file with VirusTotal using its SHA-256 hash or by uploading it, and allows checking URLs/Hashes manually.  How to get an API Key: 1. Register a free account at virustotal.com. 2. Go to your Profile -> API Key and copy your key. 3. Open NVDA Settings -> VirusTotal and paste the key.  How to set Hotkeys (None by default): 1. Go to NVDA Menu -> Preferences -> Input Gestures. 2. Expand the 'VirusTotal' category. 3. Assign your preferred shortcuts for checking a file and opening the manual check dialog. Features Multi-language support (English, Russian, Uzbek)."
+msgstr "Tanlangan faylni SHA-256 xeshi yoki faylning o'zini yuklash orqali VirusTotal'da tekshiradi, hamda URL va Xeshlarni qo'lda kiritib tekshirish imkonini beradi.  API Kalitini qanday olish mumkin: 1. virustotal.com saytidan ro'yxatdan o'ting. 2. Profilingiz -> API Key bo'limidan kalitni oling. 3. NVDA Sozlamalari -> VirusTotal bo'limiga kalitni joylashtiring.  Tezkor klavishlarni belgilash (standart belgilanmagan): 1. NVDA Menyusi -> Parametrlar -> Kiritish imo-ishoralari. 2. 'VirusTotal' toifasini kengaytiring. 3. Fayl tekshirish va qo'lda kiritish oynasiga klavishlarni biriktiring. Ko'p tillarni qo'llab-quvvatlaydi (Ingliz, Rus, O'zbek)."
+
+msgid "Check API Limits"
+msgstr "API Limitlarini Tekshirish"
+
+msgid "Please enter your API Key first."
+msgstr "Iltimos avval API kalitni kiriting."
+
+msgid "VirusTotal API Limits:\n\n"
+msgstr "VirusTotal API Limitlari:\n\n"
+
+msgid "Minute Limit: 4 requests / minute (Standard Free Limit)\n"
+msgstr "Daqiqalik Limit: 4 so'rov / daqiqa (Standart bepul limit)\n"
+
+msgid "Hourly Usage: {used} / {allowed}\n"
+msgstr "Soatlik foydalanish: {used} / {allowed}\n"
+
+msgid "Daily Usage: {used} / {allowed}\n"
+msgstr "Kunlik foydalanish: {used} / {allowed}\n"
+
+msgid "API Limits"
+msgstr "API Limitlar"
+
+msgid "Failed to retrieve limits. Check your API key and connection."
+msgstr "Limitlarni olishda xatolik. Kalitni va tarmoqni tekshiring."
+
+msgid "Error"
+msgstr "Xato"
+
+msgid "--- Hourly ---\nAllowed: {allowed}\nUsed: {used}\nRemaining: {rem}\n\n"
+msgstr "--- Soatlik ---\nJami berilgan: {allowed}\nIshlatildi: {used}\nQoldi: {rem}\n\n"
+
+msgid "--- Daily ---\nAllowed: {allowed}\nUsed: {used}\nRemaining: {rem}\n"
+msgstr "--- Kunlik ---\nJami berilgan: {allowed}\nIshlatildi: {used}\nQoldi: {rem}\n"
+
+msgid "Minute Limit: 4 requests / minute (Standard Free Limit)\n\n"
+msgstr "Daqiqalik Limit: 4 so'rov / daqiqa (Standart bepul limit)\n\n"
+
+msgid "File is already being analyzed. Please wait..."
+msgstr "Fayl hozir tahlil qilinmoqda. Iltimos kuting..."
+
+msgid "File uploaded and queued for analysis. Please wait, I will notify you when it's done."
+msgstr "Fayl yuklandi va tahlil uchun navbatga qo'yildi. Iltimos kuting, tayyor bo'lgach o'zim xabar beraman."
+
+msgid "Item not found in VirusTotal database."
+msgstr "Element VirusTotal bazasidan topilmadi."
+
+msgid "Enter a Hash, URL or IP manually to check with VirusTotal."
+msgstr "VirusTotal orqali tekshirish uchun Xesh, URL yoki IP manzilni qo'lda kiriting."
+
+msgid "Enter SHA-256 Hash, URL or IP address to check:"
+msgstr "Tekshirish uchun SHA-256 Xesh, URL yoki IP manzilni kiriting:"
+
+msgid "VirusTotal Manual Check"
+msgstr "VirusTotal Qo'lda Tekshirish"
+

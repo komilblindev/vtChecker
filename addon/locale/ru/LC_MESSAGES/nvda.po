@@ -1,0 +1,137 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: vtChecker 1.0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+
+msgid "VirusTotal Checker"
+msgstr "Проверка VirusTotal"
+
+msgid "VirusTotal"
+msgstr "VirusTotal"
+
+msgid "Checks the focused file with VirusTotal. Press twice for a detailed report."
+msgstr "Проверяет выбранный файл в VirusTotal. Нажмите дважды для подробного отчета."
+
+msgid "VirusTotal &API Key:"
+msgstr "&API Ключ VirusTotal:"
+
+msgid "Play audio &beep during file upload"
+msgstr "Воспроизводить звуковой &сигнал при загрузке"
+
+msgid "Automatically &copy results to clipboard"
+msgstr "Автоматически &копировать результаты в буфер обмена"
+
+msgid "Automatically &upload file if hash not found"
+msgstr "Автоматически &загружать файл, если хеш не найден"
+
+msgid "Please set your VirusTotal API key in NVDA settings."
+msgstr "Пожалуйста, укажите API ключ VirusTotal в настройках NVDA."
+
+msgid "No file focused in Windows Explorer."
+msgstr "В проводнике Windows не выбран файл."
+
+msgid "Checking VirusTotal..."
+msgstr "Проверка в VirusTotal..."
+
+msgid "Could not read file for hashing."
+msgstr "Не удалось прочитать файл для вычисления хеша."
+
+msgid "Hash not found. Uploading file..."
+msgstr "Хеш не найден. Загрузка файла..."
+
+msgid "File uploaded and queued for analysis. Try checking again later."
+msgstr "Файл загружен и поставлен в очередь. Попробуйте проверить позже."
+
+msgid "File not found in VirusTotal database."
+msgstr "Файл не найден в базе данных VirusTotal."
+
+msgid "VirusTotal Detailed Report"
+msgstr "Подробный отчет VirusTotal"
+
+msgid "Result copied to clipboard."
+msgstr "Результат скопирован в буфер обмена."
+
+msgid "Network or API error occurred."
+msgstr "Произошла ошибка сети или API."
+
+msgid "Get API &Key from website"
+msgstr "Получить &API ключ на сайте"
+
+msgid "Analysis complete: "
+msgstr "Анализ завершен: "
+
+msgid "Analysis is taking too long. Please press the shortcut later."
+msgstr "Анализ занимает слишком много времени. Пожалуйста, нажмите ярлык позже."
+
+msgid "No results."
+msgstr "Нет результатов."
+
+msgid "Detection ratio: {count}/{total}"
+msgstr "Уровень обнаружения: {count}/{total}"
+
+msgid "No detailed results available."
+msgstr "Подробные результаты недоступны."
+
+msgid "No engines detected this file as malicious."
+msgstr "Ни один антивирус не обнаружил этот файл как вредоносный."
+
+msgid "Checks the focused file with VirusTotal using its SHA-256 hash or by uploading it, and allows checking URLs/Hashes manually.  How to get an API Key: 1. Register a free account at virustotal.com. 2. Go to your Profile -> API Key and copy your key. 3. Open NVDA Settings -> VirusTotal and paste the key.  How to set Hotkeys (None by default): 1. Go to NVDA Menu -> Preferences -> Input Gestures. 2. Expand the 'VirusTotal' category. 3. Assign your preferred shortcuts for checking a file and opening the manual check dialog. Features Multi-language support (English, Russian, Uzbek)."
+msgstr "Проверяет выбранный файл с помощью VirusTotal (по хэшу SHA-256 или путем загрузки), а также позволяет проверять URL/хэши вручную.  Как получить ключ API: 1. Зарегистрируйтесь на virustotal.com. 2. Перейдите в Profile -> API Key и скопируйте ключ. 3. Откройте Настройки NVDA -> VirusTotal и вставьте ключ.  Как назначить горячие клавиши (по умолчанию их нет): 1. Перейдите в Меню NVDA -> Параметры -> Жесты ввода. 2. Разверните категорию 'VirusTotal'. 3. Назначьте удобные вам клавиши для проверки файла и открытия диалога ручного ввода. Поддерживает несколько языков (английский, русский, узбекский)."
+
+msgid "Check API Limits"
+msgstr "Проверить лимиты API"
+
+msgid "Please enter your API Key first."
+msgstr "Пожалуйста, сначала введите ваш ключ API."
+
+msgid "VirusTotal API Limits:\n\n"
+msgstr "Лимиты API VirusTotal:\n\n"
+
+msgid "Minute Limit: 4 requests / minute (Standard Free Limit)\n"
+msgstr "Минутный лимит: 4 запроса / мин (Стандартный бесплатный)\n"
+
+msgid "Hourly Usage: {used} / {allowed}\n"
+msgstr "Использование за час: {used} / {allowed}\n"
+
+msgid "Daily Usage: {used} / {allowed}\n"
+msgstr "Дневное использование: {used} / {allowed}\n"
+
+msgid "API Limits"
+msgstr "Лимиты API"
+
+msgid "Failed to retrieve limits. Check your API key and connection."
+msgstr "Не удалось получить лимиты. Проверьте ключ API и сеть."
+
+msgid "Error"
+msgstr "Ошибка"
+
+msgid "--- Hourly ---\nAllowed: {allowed}\nUsed: {used}\nRemaining: {rem}\n\n"
+msgstr "--- В час ---\nВсего доступно: {allowed}\nИспользовано: {used}\nОсталось: {rem}\n\n"
+
+msgid "--- Daily ---\nAllowed: {allowed}\nUsed: {used}\nRemaining: {rem}\n"
+msgstr "--- В день ---\nВсего доступно: {allowed}\nИспользовано: {used}\nОсталось: {rem}\n"
+
+msgid "Minute Limit: 4 requests / minute (Standard Free Limit)\n\n"
+msgstr "Минутный лимит: 4 запроса / мин (Стандартный бесплатный)\n\n"
+
+msgid "File is already being analyzed. Please wait..."
+msgstr "Файл уже анализируется. Пожалуйста, подождите..."
+
+msgid "File uploaded and queued for analysis. Please wait, I will notify you when it's done."
+msgstr "Файл загружен и поставлен в очередь на анализ. Пожалуйста, подождите, я сообщу вам, когда всё будет готово."
+
+msgid "Item not found in VirusTotal database."
+msgstr "Элемент не найден в базе данных VirusTotal."
+
+msgid "Enter a Hash, URL or IP manually to check with VirusTotal."
+msgstr "Введите хэш, URL-адрес или IP-адрес вручную для проверки в VirusTotal."
+
+msgid "Enter SHA-256 Hash, URL or IP address to check:"
+msgstr "Введите хэш SHA-256, URL-адрес или IP-адрес для проверки:"
+
+msgid "VirusTotal Manual Check"
+msgstr "Ручная проверка VirusTotal"
+
